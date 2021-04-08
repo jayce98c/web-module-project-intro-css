@@ -43,17 +43,17 @@ blockquote, q {
 }
 
 html{
-font-size:62.5%;
+    font-size:62.5%;
 
 }
 body{
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 5.5rem;
+    font-size: 6rem;
 }
 section{
     padding: 4% 0;
@@ -71,16 +71,16 @@ nav a{
     text-decoration: none;
 }
 .orange{
-background-color: #FF764E;
-margin-left: 10%;
+    background-color: #FF764E;
+    margin-left: 10%;
 }
 .blue{
-background-color:#5ED3EB ;
-margin: 0 24%;
+    background-color:#5ED3EB ;
+    margin: 0 24%;
 }
 .yellow{
-background-color:#FFCD69;
-margin-right: 10%;
+    background-color:#FFCD69;
+    margin-right: 10%;
 }
 
 /*top section*/
@@ -101,5 +101,17 @@ margin-right: 10%;
     padding: 4%;
     line-height: 2;
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
+    top: 20%;
+}
+.middle{
+    width: 40rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.valley{
+    background-color: #DDB9A3;
+}
+Span{
+    text-transform: bold;
 }
